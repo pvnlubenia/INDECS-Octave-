@@ -340,19 +340,19 @@ end
 
 
 
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
-%                                                                     %
-% Function 2 of 4: add_vertex                                         %
-%                                                                     %
-%    - Purpose: To add a vertex to a graph g                          %
-%    - Inputs                                                         %
-%         - g: graph structure                                        %
-%         - v: name of vertex to be added                             %
-%    - Output                                                         %
-%         - g: structure with vertex added                            %
-%    - Used in indep_decomp (STEP 5)                                  %
-%                                                                     %
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % %
+%                                             %
+% Function 2 of 4: add_vertex                 %
+%                                             %
+%    - Purpose: To add a vertex to a graph g  %
+%    - Inputs                                 %
+%         - g: graph structure                %
+%         - v: name of vertex to be added     %
+%    - Output                                 %
+%         - g: structure with vertex added    %
+%    - Used in indep_decomp (STEP 5)          %
+%                                             %
+% % % % % % % % % % % % % % % % % % % % % % % %
 
 function g = add_vertex(g, v)
     
@@ -380,20 +380,20 @@ end
 
 
 
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
-%                                                                     %
-% Function 3 of 4: add_edge                                           %
-%                                                                     %
-%    - Purpose: To add an edge to a graph g                           %
-%    - Inputs                                                         %
-%         - g: graph structure with vertices v1 and v2                %
-%         - v1: starting vertex of edge to be added                   %
-%         - v2: ending vertex of edge to be added                     %
-%    - Output                                                         %
-%         - g: structure with edge added                              %
-%    - Used in indep_decomp (STEP 7)                                  %
-%                                                                     %
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%                                                       %
+% Function 3 of 4: add_edge                             %
+%                                                       %
+%    - Purpose: To add an edge to a graph g             %
+%    - Inputs                                           %
+%         - g: graph structure with vertices v1 and v2  %
+%         - v1: starting vertex of edge to be added     %
+%         - v2: ending vertex of edge to be added       %
+%    - Output                                           %
+%         - g: structure with edge added                %
+%    - Used in indep_decomp (STEP 7)                    %
+%                                                       %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
 function g = add_edge(g, v1, v2)
     
@@ -464,19 +464,19 @@ end
 
 
 
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
-%                                                                     %
-% Function 4 of 4: vertex_component                                   %
-%                                                                     %
-%    - Purpose: To determine to which component each vertex belongs   %
-%         to                                                          %
-%    - Input                                                          %
-%         - g: graph with vertices and edges                          %
-%    - Output                                                         %
-%         - c: list of component numbers for each vertex              %
-%    - Used in indep_decomp (STEP 8)                                  %
-%                                                                     %
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%                                                                   %
+% Function 4 of 4: vertex_component                                 %
+%                                                                   %
+%    - Purpose: To determine to which component each vertex belongs %
+%         to                                                        %
+%    - Input                                                        %
+%         - g: graph with vertices and edges                        %
+%    - Output                                                       %
+%         - c: list of component numbers for each vertex            %
+%    - Used in indep_decomp (STEP 8)                                %
+%                                                                   %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
 function c = vertex_component(g)
     
