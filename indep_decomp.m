@@ -137,7 +137,7 @@ function [model, R, G, P] = indep_decomp(model)
     
     
     %
-    % STEP 3: Get the transpose of N: Each row now represents the reaction vector a reaction (this point onward is based on [1])
+    % STEP 3: Get the transpose of N: Each row now represents the reaction vector a reaction
     %
     
     R = N';
