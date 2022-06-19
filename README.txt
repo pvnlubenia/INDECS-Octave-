@@ -35,14 +35,6 @@ indep_decomp uses the following functions:     1. init_graph
 
 
 
-====
-Note
-====
-
-Make sure all 5 functions are in the same folder/path being used as the current working directory.
-
-
-
 =================================
 How to fill out 'model' structure
 =================================
@@ -92,7 +84,7 @@ Contact Information
 For questions, comments, and suggestions, feel free to contact me at pvnlubenia@yahoo.co.uk.
 
 
-- Patrick Lubenia
+- Patrick Lubenia (19 June 2022)
 
 
 
@@ -100,6 +92,6 @@ For questions, comments, and suggestions, feel free to contact me at pvnlubenia@
 References
 ==========
 
-   [1] Hernandez, B.S. and De la Cruz, R.J.L. (2021). Independent decompositions of chemical reaction networks. Bulletin of Mathematical Biology, 83(76), 1Ð23. doi:10.1007/s11538-021-00906-3.
+   [1] Hernandez B, De la Cruz R (2021) Independent decompositions of chemical reaction networks. Bull Math Biol 83(76):1Ð23. https://doi.org/10.1007/s11538-021-00906-3
 
-   [2] Soranzo, N. and Altafini, C. (2009). ERNEST: a toolbox for chemical chemical reaction network theory. Bioinformatics, 25(21), 2853Ð2854. doi:10.1093/bioinformatics/btp513.
+   [2] Soranzo N, Altafini C (2009) ERNEST: a toolbox for chemical reaction network theory. Bioinform 25(21):2853Ð2854. https://doi.org/10.1093/bioinformatics/btp513
