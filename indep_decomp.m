@@ -39,7 +39,7 @@
 %                   - reversible: has the value true or false indicating if   %
 %                        the reaction is reversible or not, respectively      %
 %                                                                             %
-% References:                                                                 %
+% References                                                                  %
 %    [1] Hernandez B, De la Cruz R (2021) Independent decompositions of       %
 %           chemical reaction networks. Bull Math Biol 83(76):1–23.           %
 %           https://doi.org/10.1007/s11538-021-00906-3                        %
